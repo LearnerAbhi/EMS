@@ -1,49 +1,16 @@
+# React + Vite
 
-# Employee Management System
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-I have made a compact yet feature-rich employee management system where admins can create tasks, assign them to users, and monitor their status, including completed, pending, or failed. Users can view assigned tasks, accept or forward them, and update their progress by marking tasks as completed or failed, ensuring streamlined task tracking and accountability.
+Currently, two official plugins are available:
 
-## 🛠 Skills
-Javascript, React, Context Api, Tailwind css and Local Storage handling...
-## Run Locally
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Clone the project
+## React Compiler
 
-```bash
-  https://github.com/malhotraarshdeepsingh/Employee-Management-System
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Go to the project directory
+## Expanding the ESLint configuration
 
-```bash
-  cd Employee-Management-System
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run dev
-```
-
-
-## Demo Videos
-
-You can find login credentials in localStorage.jsx to test the project.
-
-[Create Task](./demo/CreateTask.mp4)
-[Forward Task](./demo/ForwardTask.mp4)
-[Change Task Status](./demo/StausUpdate.mp4)
-
-## Features
-- Admin and user roles with distinct privileges
-- Task assignment, forwarding, and status updates
-- Real-time task tracking and filtering (completed, pending, or failed)
-## Contributing
-
-Feel free to fork the repository, create a new branch, and submit a pull request for review.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
